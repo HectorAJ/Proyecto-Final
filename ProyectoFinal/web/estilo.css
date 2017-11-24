@@ -1,0 +1,69 @@
+body {
+    background-color: #666060;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+}
+
+p {
+    color: #FFFFF;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+ol{
+    color: #FFFFF;
+    font-family: "Arial";
+    font-size: 18px;
+}
+
+a:link {
+    color: #FF66FF;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: #FF3399;
+}
+
+a:active {
+    color: #FF1919;
+}
+
+form{
+    color: gold;
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+h3{
+    color: gold;
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+tr{
+    color: gold;
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+div{
+    color: #CC99FF;
+    font-family: "Segoe Print";
+    font-size: 14px;
+}
+
+
+
+

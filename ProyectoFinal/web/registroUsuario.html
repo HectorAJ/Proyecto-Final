@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrate!!</title>
+        <link rel="stylesheet" href="estilo.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="Usuario" method="post" accept-charset="ISO-8859-15">
+            <h1>Registratre!</h1>
+            <table>
+                <tr><td>Usuario:</td> <td><input type="text" name="usuario"></td></tr>
+                <tr><td>Password:</td><td><input type="password" name="contra"></td></tr>
+                <tr><td>Nombre:</td> <td><input type="text" name="nombre"></td></tr>
+            </table>    
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+            <input type="hidden" name="accion" value="registrar">
+        </form>
+        <br><br><a href="index.html">Regresar al inicio</a><br>
+    </body>
+</html>

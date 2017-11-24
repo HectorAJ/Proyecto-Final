@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Algoteca</title>
+        <link rel="stylesheet" href="estilo.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body background="Fondo.jpg">
+        <br><center><font size="8" color="white"><strong><marquee>Bienvenido</marquee></strong></font></center>
+        <center><font size="5" color="white">Coloca tu nombre de usuario y contraseña para poder ingresar</font></center>
+        <form method="post" action="Usuario" accept-charset="ISO-8859-15">
+            <br><br><center>Nombre:&nbsp;</center><center><input type="text" name="usuario"></center>
+            <br><br><center>Contraseña:&nbsp;</center>
+            <center><input type="password" name="contra"></center>
+            <br>
+            <br>
+            <center><input type="submit" name="submitear" value="entrar"></center>
+            <input type="hidden" name="accion" value="login">
+        </form>
+        <br><center><a href="registroUsuario.html">!Registrate si no tienes cuenta!</a></center><br>
+    </body>
+</html>
